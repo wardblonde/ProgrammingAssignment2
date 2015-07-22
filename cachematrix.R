@@ -29,9 +29,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function, cacheSolve, takes as input a function-list that was returned
-##   for some matrix X by the makeCacheMatrix function. It returns the value
+##   for some matrix x by the makeCacheMatrix function. It returns the value
 ##   of the getinverse function of that list, unless that value is NULL. In
-##   that case it computes and returns the inverse of X. Cachesolve asssumes
+##   that case it computes and returns the inverse of x. Cachesolve asssumes
 ##   that x is always invertible.
 
 cacheSolve <- function(x, ...) {
